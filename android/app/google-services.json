@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "248340309733",
+    "project_id": "link-application-6f0b6",
+    "storage_bucket": "link-application-6f0b6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248340309733:android:120615bbcf0c7d636d960c",
+        "android_client_info": {
+          "package_name": "com.tarrance.eztrack_rental"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvVN4TF-QciA6Tlc-mG1fT5apa7r6-VWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

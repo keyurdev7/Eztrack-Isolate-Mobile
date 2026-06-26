@@ -1,0 +1,19 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 316 ciObject found
+ciMethod java/lang/Object <init> ()V 1650 0 128856913 0 -1
+ciMethod java/lang/Class getName ()Ljava/lang/String; 514 0 437001 0 -1
+ciMethod java/lang/Class initClassName ()Ljava/lang/String; 516 0 258 0 -1
+ciMethod java/lang/Iterable iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/lang/Boolean booleanValue ()Z 264 0 132 0 -1
+ciMethod java/lang/Boolean valueOf (Z)Ljava/lang/Boolean; 826 0 1509843 0 -1
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/NullPointerException <init> (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethod java/lang/ThreadLocal get ()Ljava/lang/Object; 118880 0 93788 0 -1
+ciMethod java/lang/ThreadLocal set (Ljava/lang/Object;)V 4096 0 11481 0 -1
+ciMethodData java/lang/Object <init> ()V 2 128856913 orig 80 1 0 0 0 0 0 0 0 0 0 0 0 0 16 162 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 data 4 0x0 0x9 0x1 0x0 oops 0 methods 0
+ciMethodData java/lang/NullPointerException <init> (Ljava/lang/String;)V 1 0 orig 80 0 0 0 0 0 0 0 0 0 0 0 0 0 16 162 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 data 8 0x20002 0x0 0x0 0x0 0x9 0x2 0xffffffffffffffff 0xffffffffffffffff oops 0 methods 0
+ciMethodData java/lang/Class getName ()Ljava/lang/String; 2 437001 orig 80 0 0 0 0 0 0 0 0 0 0 0 0 0 16 162 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 data 23 0x60007 0x3159 0x38 0x678d2 0xa0003 0x67881 0x50 0xe0005 0x3159 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x9 0x1 0xffffffffffffffff oops 0 methods 0
+ciMethodData java/lang/ThreadLocal get ()Ljava/lang/Object; 2 93788 orig 80 1 0 0 0 0 0 0 0 0 0 0 0 0 16 162 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 data 40 0x2 0x862c 0x60005 0x6305 0x0 0x16a0d9590 0xb09 0x16a0d90c0 0x181e 0x80000006000b0007 0x1 0x78 0x862c 0x100005 0x862c 0x0 0x0 0x0 0x0 0x0 0x150007 0x9e9 0x20 0x7c43 0x220005 0x9ea 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x9 0x1 0x0 oops 2

@@ -1,4 +1,4 @@
-# eztrack_rental
+# Eztrack-Isolate-Mobile
 
 A new Flutter project.
 

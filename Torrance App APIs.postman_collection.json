@@ -1,0 +1,784 @@
+{
+	"info": {
+		"_postman_id": "dab9b029-dbab-4262-b82a-059506a0f97f",
+		"name": "Torrance App APIs",
+		"description": "Postman collection (auto-generated) - base_url = https://hrdeveliteapi.eztrak.net/api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "47670367"
+	},
+	"item": [
+		{
+			"name": "GET Notification (Push)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/Notification?Type=Push&DisablePagination=true",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"Notification"
+					],
+					"query": [
+						{
+							"key": "Type",
+							"value": "Push"
+						},
+						{
+							"key": "DisablePagination",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET DelayType",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/DelayType"
+			},
+			"response": []
+		},
+		{
+			"name": "GET UpdateStatus",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/UpdateStatus"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Dashboard/GetTOTCharts",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/Dashboard/GetTOTCharts"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Folder",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/Folder"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Dropbox",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/Dropbox"
+			},
+			"response": []
+		},
+		{
+			"name": "GET TOTLog (list)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/TOTLog"
+			},
+			"response": []
+		},
+		{
+			"name": "GET TOTLog by id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/TOTLog/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "GET WRRLog (list)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/WRRLog"
+			},
+			"response": []
+		},
+		{
+			"name": "GET WRRLog by id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/WRRLog/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "GET OverrideLog (list)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/OverrideLog"
+			},
+			"response": []
+		},
+		{
+			"name": "GET OverrideLog by id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/OverrideLog/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "GET FCOLog (list)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/FCOLog"
+			},
+			"response": []
+		},
+		{
+			"name": "GET FCOLog by id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/FCOLog/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Department",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/Department"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Unit",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/Unit"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Approver",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/Approver"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Shift",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/Shift"
+			},
+			"response": []
+		},
+		{
+			"name": "GET PermitType",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/PermitType"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Company (DisablePagination=true)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/Company?DisablePagination=true",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"Company"
+					],
+					"query": [
+						{
+							"key": "DisablePagination",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET TOTLog/GetTWRNumericValues",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/TOTLog/GetTWRNumericValues"
+			},
+			"response": []
+		},
+		{
+			"name": "GET TOTLog/GetTWRAphabeticValues",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/TOTLog/GetTWRAphabeticValues"
+			},
+			"response": []
+		},
+		{
+			"name": "GET StartOfWorkDelay",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/StartOfWorkDelay"
+			},
+			"response": []
+		},
+		{
+			"name": "GET ShiftDelay",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/ShiftDelay"
+			},
+			"response": []
+		},
+		{
+			"name": "GET ReworkDelay",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/ReworkDelay"
+			},
+			"response": []
+		},
+		{
+			"name": "GET OngoingWorkDelay",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/OngoingWorkDelay"
+			},
+			"response": []
+		},
+		{
+			"name": "GET CraftSkill by Company.Id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/CraftSkill?Company.Id={{companyId}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"CraftSkill"
+					],
+					"query": [
+						{
+							"key": "Company.Id",
+							"value": "{{companyId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST TOTLog (create)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": "{{base_url}}/TOTLog"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT TOTLog (edit)",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": "{{base_url}}/TOTLog"
+			},
+			"response": []
+		},
+		{
+			"name": "POST WRRLog (create)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": "{{base_url}}/WRRLog"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT WRRLog (edit)",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": "{{base_url}}/WRRLog"
+			},
+			"response": []
+		},
+		{
+			"name": "POST OverrideLog (multipart/form-data)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "field1",
+							"value": "value1",
+							"type": "text"
+						},
+						{
+							"key": "file1",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": "{{base_url}}/OverrideLog"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT OverrideLog (edit - multipart/form-data)",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "field1",
+							"value": "value1",
+							"type": "text"
+						},
+						{
+							"key": "file1",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": "{{base_url}}/OverrideLog"
+			},
+			"response": []
+		},
+		{
+			"name": "POST FCOLog (multipart/form-data)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "field1",
+							"value": "value1",
+							"type": "text"
+						},
+						{
+							"key": "file1",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": "{{base_url}}/FCOLog"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT FCOLog (edit)",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": "{{base_url}}/FCOLog"
+			},
+			"response": []
+		},
+		{
+			"name": "POST Employee (signup)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": "{{base_url}}/Employee"
+			},
+			"response": []
+		},
+		{
+			"name": "POST Account/LoginUsingPincode",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"pincode\": \"7095\", \"deviceId\" : \"iphone13\" }"
+				},
+				"url": "{{base_url}}/Account/LoginUsingPincode"
+			},
+			"response": []
+		},
+		{
+			"name": "POST Account/Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"email\": \"fjosh@pbf.com\", \"password\": \"2018\" }"
+				},
+				"url": "{{base_url}}/Account/Login"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Account/ResetPassword",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"oldPassword\": \"\", \"newPassword\": \"\" }"
+				},
+				"url": "{{base_url}}/Account/ResetPassword"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Dynamic approve/reject: /{apiUrl}/{id}/{status}",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": "{{base_url}}/{{apiUrl}}/{{id}}/{{status}}"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT FCOLog/Approve",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ }"
+				},
+				"url": "{{base_url}}/FCOLog/Approve"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Account/Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{authToken}}"
+					}
+				],
+				"url": "{{base_url}}/Account/Delete"
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "https://hrdeveliteapi.eztrak.net/api"
+		},
+		{
+			"key": "authToken",
+			"value": ""
+		},
+		{
+			"key": "id",
+			"value": "123"
+		},
+		{
+			"key": "status",
+			"value": "Approved"
+		},
+		{
+			"key": "companyId",
+			"value": "1"
+		}
+	]
+}

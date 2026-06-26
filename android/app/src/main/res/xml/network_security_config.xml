@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Allow HTTP traffic for development and testing -->
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <domain includeSubdomains="true">195.26.242.125:82</domain>
+        <!-- Add your API domain here if needed for HTTP -->
+        <domain includeSubdomains="true">195.26.242.125</domain>
+        <domain includeSubdomains="true">hrdeveliteapi.eztrak.net</domain>
+        <domain includeSubdomains="true">hrdevelite.eztrak.net</domain>
+        <domain includeSubdomains="true">eztraksoftware.com</domain>
+        <domain includeSubdomains="true">rental.eztraksoftware.com</domain>
+
+
+    </domain-config>
+</network-security-config>
